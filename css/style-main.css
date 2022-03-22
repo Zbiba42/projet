@@ -1,0 +1,98 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  line-height: 1.6;
+  background: linear-gradient(
+    rgb(43, 55, 65),
+    rgb(21, 26, 31),
+    rgb(10, 14, 15)
+  );
+}
+a:link,:visited{
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+.paragraph1 {
+  margin: 10px auto;
+  width: 70%;
+  color: white;
+  border: solid #12a069 3px;
+  border-radius: 3px;
+}
+.paragraph2 h3 {
+
+  float: left;
+  margin: 30px auto;
+  width: 90%;
+  color: white;
+  border: solid #12a069 3px;
+  border-radius: 3px;
+}
+.pics {
+  margin: 0 12%;
+  min-height: 50%;
+  width: 80%;
+}
+.card {
+  
+  color: aliceblue;
+  background-size: cover;
+  height: 100%;
+  max-width: 25%;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 1s ease;
+  float: left;
+  margin: 30px 6% 30px 2% ;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card:hover .card-content {
+  transform: translateY(0);
+}
+.card-content {
+  padding: 1.2rem;
+  padding-top: 8rem;
+  transition: ease 1s;
+  transform: translateY(100%);
+  background: linear-gradient(
+    hsla(0 0% 0% /0.3),
+    rgba(14, 13, 13, 0.8),
+    hsl(0 0% 0% /1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background: #19faa5;
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(207, 37%, 88%);
+  background-color: #ad4200;
+  padding: 0.5em 1.25em;
+  border-radius: 2px;
+}
+.button:hover {
+  background-color: #dfb647;
+}
