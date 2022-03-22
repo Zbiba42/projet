@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: 150vh;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pic1{
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.container-fluid{
+    width: 100%;
+    height: 30vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/screen-0.jpg);
+    opacity: 0.8;
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;  
+   
+}
+.article{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.picc{
+    width: 100%;
+    height: 250vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    
+    
+}
+.pic{
+    width: 18rem;
+    border-radius: 10px;
+    
+    
+}
+.pic2{
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.pic1:hover,.pic2:hover{
+    transform: scale(1.08);
+}
